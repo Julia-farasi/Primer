@@ -1,0 +1,23 @@
+	
+* {
+    padding: 5;
+    margin: 5;
+    box-sizing: border-box;
+  }
+  body
+  {
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  background-color: lavender;
+  color: navy;
+  overflow-x: hidden;
+  }
+  h1{
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #main{
+    color: rgb(20, 156, 97);
+  }

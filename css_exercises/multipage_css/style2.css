@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+    background-color: lavender;
+    color: navy;
+    overflow-x: hidden;
+  }
+  p{
+    color: blue;
+
+  }
+  h1{
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .n{
+    color: rgb(55, 205, 38);
+  }
