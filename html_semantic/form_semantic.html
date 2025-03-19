@@ -18,11 +18,20 @@
                 <fieldset>
                   <legend><h2>Contact Form</h2></legend>
                   <label for="name">Name:</label>
-                  <input type="text" id="name" name="name" /><br /><br />
+                  <input type="text" id="name" name="name" placeholder="Name"/>
+                  <br /><br />
                   <label for="email">Email:</label>
-                  <input type="email" id="email" name="email" /><br /><br />
+                  <input type="email" id="email" name="email" placeholder="Email" required />
+                  <br /><br />
+                  <label></label>
+                  <select name="bootcamp" required>
+                    <option value="">Please select a bootcamp</option>
+                    <option>Web Devel</option>
+                    <option>Data Science</option>
+                  </select>
                   <label for="message">Message:</label>
-                  <textarea id="message" name="message"></textarea><br /><br />
+                  <textarea id="message" name="message"></textarea>
+                  <br /><br />
                   <button type="submit">Send</button>
                 </fieldset>
         </div>
