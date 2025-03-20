@@ -1,0 +1,37 @@
+/* General body styling */
+body {
+    font-family: "Arial", sans-serif;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #dbcfcf;
+    font-display:inherit;
+    /* Light gray background */
+  }
+  
+  /* Header and navigation styles */
+  header {
+    background-color: #10baa7;
+    /* A deep blue color */
+    color: rgb(5, 78, 67);
+    padding: 10px 20px;
+  }
+  
+  .cta,a {
+    color: rgb(5, 78, 67);
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  a:hover{
+    color: red;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333333;
+    /* Very dark gray, almost black */
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
