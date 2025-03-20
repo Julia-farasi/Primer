@@ -5,7 +5,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
     background-color: #dbcfcf;
-    font-display:inherit;
+    color: rgb(10, 125, 79);
     /* Light gray background */
   }
   
@@ -34,4 +34,29 @@ body {
     text-align: center;
     padding: 10px 20px;
   }
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* CSS rules for extra small screens */
+  header {color: red;}
+}
+ 
+/* Small devices (portrait tablets and large phones, 600px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* CSS rules for small screens */
   
+}
+ 
+/* Medium devices (landscape tablets, 768px to 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  /* CSS rules for medium screens */
+  header{color: blue;}
+  nav{display:inline-block;}
+}
+ 
+/* Large devices (laptops/desktops, 992px to 1200px) */
+@media only screen and (min-width: 993px)  {
+  /* CSS rules for large screens */
+  header{color: rgb(119, 255, 0);}
+  nav{display:inline-block;}
+}
+ 
